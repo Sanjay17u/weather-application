@@ -51,7 +51,7 @@ const Weather = () => {
             console.error('Error fetching data:', error);
         }
     };
-
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         search('London');  
     }, []);
