@@ -53,7 +53,7 @@ const Weather = () => {
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
-        search('London');  
+        search('New Delhi');  
     }, []);
 
     return (
